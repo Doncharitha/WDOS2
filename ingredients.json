@@ -1,0 +1,99 @@
+[
+    {
+        "id": 37,
+        "name": "Salt",
+        "image": "images/salt.jpg",
+        "quantity": 1,
+        "unit": "pcs",
+        "price": 115
+    },
+    {
+        "id": 38,
+        "name": "Pepper",
+        "image": "images/Pepper.jpg",
+        "quantity": 1,
+        "unit": "pcs",
+        "price": 720
+    },
+    {
+        "id": 39,
+        "name": "Chillie",
+        "image": "images/Chillie.jpg",
+        "quantity": 1,
+        "unit": "pcs",
+        "price": 300
+    },
+    {
+        "id": 41,
+        "name": "Turmeric",
+        "image": "images/Turmeric.jpg",
+        "quantity": 1,
+        "unit": "pcs",
+        "price": 600
+    },
+    {
+        "id": 42,
+        "name": "Unroasted Curry Powder",
+        "image": "images/Unroasted Curry Powder.jpg",
+        "quantity": 1,
+        "unit": "pcs",
+        "price": 280
+    },
+    {
+        "id": 43,
+        "name": "Sunflower Oil",
+        "image": "images/Sunflower Oil.jpg",
+        "quantity": 1,
+        "unit": "pcs",
+        "price": 1925
+    },
+    {
+        "id": 44,
+        "name": "Baking Powder",
+        "image": "images/Baking Powder.jpg",
+        "quantity": 1,
+        "unit": "pcs",
+        "price": 400
+    },
+    {
+        "id": 45,
+        "name": "Essence Vanilla",
+        "image": "images/Essence Vanilla.jpg",
+        "quantity": 1,
+        "unit": "pcs",
+        "price": 200
+    },
+    {
+        "id": 46,
+        "name": "Cocoa Powder",
+        "image": "images/Cocoa Powder.jpg",
+        "quantity": 1,
+        "unit": "pcs",
+        "price": 1925
+    },
+    {
+        "id": 47,
+        "name": "Cake Flour",
+        "image": "images/Cake Flour.jpg",
+        "quantity": 1,
+        "unit": "pcs",
+        "price": 410
+    },
+    {
+        "id": 48,
+        "name": "Butter Unsalted",
+        "image": "images/Butter Unsalted.jpg",
+        "quantity": 1,
+        "unit": "pcs",
+        "price": 130
+    },
+    {
+        "id": 49,
+        "name": "Brown Eggs",
+        "image": "images/Brown Eggs.jpg",
+        "quantity": 1,
+        "unit": "pcs",
+        "price": 650
+    }
+
+]

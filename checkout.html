@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--==Title==================================-->
+  <title>Grocies</title>
+  <!--==Stylesheet=============================-->
+  <link rel="icon" href="images/lo.jpg">
+  <link rel="stylesheet" href="style.css">
+  <!--==Fav-icon===============================-->
+  <link rel="shortcut icon" href="images/fav-icon.png"/>
+  <!--==Using-Font-Awesome=====================-->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <!--==Import-Font-Family======================-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+<body>
+        <header>
+      <div class="logo">
+        <img src="images/lo.jpg" alt="Logo">
+    </div>
+    <div class="search-bar">
+        <input type="text" placeholder="Search...">
+        <button type="submit">Search</button>
+    </div>
+    <nav>
+        <ul class="top-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About.html">About Us</a></li>
+          <li><a href="veg.html">Veggies</a></li>
+        </ul>
+        <ul class="bottom-nav">
+          <li><a href="fruits.html">Fruits</a></li>
+          <li><a href="MeatnSeafood.html">Meat</a></li>
+          <li><a href="Baking&cooking.html">Ingredients</a></li>
+        </ul>
+      </nav>
+      <!--right-nav-(cart-like)-->
+      <div class="right-nav">
+        <!--cart----->
+        <a href="orderpage.html" class="cart">
+          <i class="fas fa-shopping-cart"></i>
+        </a>
+          <!--like----->
+          <a href="Loyalty.html" class="user">
+              <i class="fas fa-user"></i>
+          </a>  
+      </div>
+    </nav>
+  </header>
+    <h1>Checkout</h1>
+    <div id="checkout">
+        <div class="fieldset-container">
+            <fieldset>
+        <div class="form-group"></div>
+        <table id="checkout-table">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Cart items will be dynamically inserted here -->
+            </tbody>
+        </table>  
+    </div>
+</div>   
+<div class="container1">
+    <form id="checkoutForm">
+        <div class="row">
+            <div class="col">
+                <h3 class="title">Billing Details</h3>
+                <div class="inputBox">
+                    <span>full name :</span>
+                    <input type="text" id="fullName" placeholder="D.C.L De Seram" required>
+                </div>
+                <div class="inputBox">
+                    <span>email :</span>
+                    <input type="email" id="email" placeholder="example@example.com" required>
+                </div>
+                <div class="inputBox">
+                    <span>address :</span>
+                    <input type="text" id="address" placeholder="room - street - locality" required>
+                </div>
+                <div class="inputBox">
+                    <span>city :</span>
+                    <input type="text" id="city" placeholder="Kottawa" required>
+                </div>
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>state :</span>
+                        <input type="text" id="state" placeholder="Colombo" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>zip code :</span>
+                        <input type="text" id="zipCode" placeholder="10230" required>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h3 class="title">payment</h3>
+                <div class="inputBox">
+                    <span>cards accepted :</span>
+                    <img src="images/card_img.png" alt="">
+                </div>
+                <div class="inputBox">
+                    <span>name on card :</span>
+                    <input type="text" id="nameOnCard" placeholder="Charitha De Seram" required>
+                </div>
+                <div class="inputBox">
+                    <span>credit card number :</span>
+                    <input type="number" id="cardNumber" placeholder="1111-2222-3333-4444" required>
+                </div>
+                <div class="inputBox">
+                    <span>exp month :</span>
+                    <input type="text" id="expMonth" placeholder="March" required>
+                </div>
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>exp year :</span>
+                        <input type="number" id="expYear" placeholder="2022" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>CVV :</span>
+                        <input type="text" id="cvv" placeholder="1234" required>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <input type="button" value="proceed to checkout" class="submit-btn" id="checkoutButton">
+    </form>
+
+    <div id="thankYouMessage" style="display:none;">
+        <h2>Thank you for your purchase!</h2>
+        <p>Your order will be delivered by <span id="deliveryDate"></span>.</p>
+    </div>
+</div>
+    <script src="checkout.js"></script>
+</body>
+</html>

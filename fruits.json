@@ -1,0 +1,101 @@
+[
+    {
+        "id": 22,
+        "name": "Apple",
+        "image": "images/apple.jpg",
+        "options": [
+            {"label": "1kg", "multiplier": 1},
+            {"label": "500g", "multiplier": 0.5},
+            {"label": "250g", "multiplier": 0.25}
+        ],
+        "pricePerKg": 150
+    },
+    {
+        "id": 23,
+        "name": "Banana",
+        "image": "images/Banana.jpg",
+        "options": [
+            {"label": "1kg", "multiplier": 1},
+            {"label": "500g", "multiplier": 0.5},
+            {"label": "250g", "multiplier": 0.25}
+        ],
+        "pricePerKg": 150
+    },
+    {
+        "id": 24,
+        "name": "Grapes",
+        "image": "images/Grapes.jpg",
+        "options": [
+            {"label": "1kg", "multiplier": 1},
+            {"label": "500g", "multiplier": 0.5},
+            {"label": "250g", "multiplier": 0.25}
+        ],
+        "pricePerKg": 150
+    },
+    {
+        "id": 25,
+        "name": "Kiwi",
+        "image": "images/kiwi.jpg",
+        "options": [
+            {"label": "1kg", "multiplier": 1},
+            {"label": "500g", "multiplier": 0.5},
+            {"label": "250g", "multiplier": 0.25}
+        ],
+        "pricePerKg": 150
+    },
+    {
+        "id": 26,
+        "name": "Mango",
+        "image": "images/mango.jpg",
+        "options": [
+            {"label": "1kg", "multiplier": 1},
+            {"label": "500g", "multiplier": 0.5},
+            {"label": "250g", "multiplier": 0.25}
+        ],
+        "pricePerKg": 150
+    },
+    {
+        "id": 27,
+        "name": "Mangosteen",
+        "image": "images/Mangosteen.jpg",
+        "options": [
+            {"label": "1kg", "multiplier": 1},
+            {"label": "500g", "multiplier": 0.5},
+            {"label": "250g", "multiplier": 0.25}
+        ],
+        "pricePerKg": 150
+    },
+    {
+        "id": 28,
+        "name": "Orange",
+        "image": "images/orange.jpg",
+        "options": [
+            {"label": "1kg", "multiplier": 1},
+            {"label": "500g", "multiplier": 0.5},
+            {"label": "250g", "multiplier": 0.25}
+        ],
+        "pricePerKg": 150
+    },
+    {
+        "id": 29,
+        "name": "Papaya",
+        "image": "images/papaya.jpg",
+        "options": [
+            {"label": "1kg", "multiplier": 1},
+            {"label": "500g", "multiplier": 0.5},
+            {"label": "250g", "multiplier": 0.25}
+        ],
+        "pricePerKg": 150
+    },
+    {
+        "id": 30,
+        "name": "Pears",
+        "image": "images/Pears.jpg",
+        "options": [
+            {"label": "1kg", "multiplier": 1},
+            {"label": "500g", "multiplier": 0.5},
+            {"label": "250g", "multiplier": 0.25}
+        ],
+        "pricePerKg": 150
+    }
+]

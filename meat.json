@@ -1,0 +1,68 @@
+[
+    {
+        "id": 31,
+        "name": "Chicken",
+        "image": "images/chicken.jpg",
+        "options": [
+            {"label": "1kg", "multiplier": 1},
+            {"label": "500g", "multiplier": 0.5},
+            {"label": "250g", "multiplier": 0.25}
+        ],
+        "pricePerKg": 1980
+    },
+    {
+        "id": 32,
+        "name": "Thalapath",
+        "image": "images/thalapath.jpg",
+        "options": [
+            {"label": "1kg", "multiplier": 1},
+            {"label": "500g", "multiplier": 0.5},
+            {"label": "250g", "multiplier": 0.25}
+        ],
+        "pricePerKg": 1990
+    },
+    {
+        "id": 33,
+        "name": "Prawns",
+        "image": "images/prawns.jpg",
+        "options": [
+            {"label": "1kg", "multiplier": 1},
+            {"label": "500g", "multiplier": 0.5},
+            {"label": "250g", "multiplier": 0.25}
+        ],
+        "pricePerKg": 2040
+    },
+    {
+        "id": 34,
+        "name": "Cuttlefish",
+        "image": "images/cuttlefish.jpg",
+        "options": [
+            {"label": "1kg", "multiplier": 1},
+            {"label": "500g", "multiplier": 0.5},
+            {"label": "250g", "multiplier": 0.25}
+        ],
+        "pricePerKg": 1640
+    },
+    {
+        "id": 35,
+        "name": "Fish",
+        "image": "images/tuna.jpg",
+        "options": [
+            {"label": "1kg", "multiplier": 1},
+            {"label": "500g", "multiplier": 0.5},
+            {"label": "250g", "multiplier": 0.25}
+        ],
+        "pricePerKg": 2190
+    },
+    {
+        "id": 36,
+        "name": "Paraw Small",
+        "image": "images/Paraw Small.jpg",
+        "options": [
+            {"label": "1kg", "multiplier": 1},
+            {"label": "500g", "multiplier": 0.5},
+            {"label": "250g", "multiplier": 0.25}
+        ],
+        "pricePerKg": 1640
+    }
+]

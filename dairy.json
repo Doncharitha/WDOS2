@@ -1,0 +1,74 @@
+[
+    {
+        "id": 13,
+        "name": "Anchor Milk Powder",
+        "image": "images/milkpowder.jpg",
+        "quantity": 1,
+        "unit": "pcs",
+        "price": 1050
+    },
+    {
+        "id": 14,
+        "name": "Ambewela Milk",
+        "image": "images/fresh milk.jpg",
+        "quantity": 1,
+        "unit": "pcs",
+        "price": 530
+    },
+    {
+        "id": 15,
+        "name": "Pediapro 2-5 Year Child",
+        "image": "images/milkpowder 2.jpg",
+        "quantity": 1,
+        "unit": "pcs",
+        "price": 830
+    },
+    {
+        "id": 16,
+        "name": "Anchor Stirred Yoghurt Plain",
+        "image": "images/Anchor stirred yo.jpg",
+        "quantity": 1,
+        "unit": "pcs",
+        "price": 890
+    },
+    {
+        "id": 17,
+        "name": "Ambewela Yoghurt Plain",
+        "image": "images/ambewela yoghurt.jpg",
+        "quantity": 1,
+        "unit": "pcs",
+        "price": 80
+    },
+    {
+        "id": 18,
+        "name": "Highland Yoghurt Set Plain",
+        "image": "images/Highland Yoghurt Set Plain.jpg",
+        "quantity": 1,
+        "unit": "pcs",
+        "price": 80
+    },
+    {
+        "id": 19,
+        "name": "Anchor Processed Cheese",
+        "image": "images/Anchor Processed Cheese 100g.jpg",
+        "quantity": 1,
+        "unit": "pcs",
+        "price": 940
+    },
+    {
+        "id": 20,
+        "name": "Kotmale Cheese Spread",
+        "image": "images/cheese sp.jpg",
+        "quantity": 1,
+        "unit": "pcs",
+        "price": 880
+    },
+    {
+        "id": 21,
+        "name": "Cheese",
+        "image": "images/Dana Cheddar Cheese Block 200g.jpg",
+        "quantity": 1,
+        "unit": "pcs",
+        "price": 1850
+    }
+]
