@@ -1,5 +1,3 @@
-let cart = JSON.parse(localStorage.getItem('cart')) || [];
-
 document.addEventListener('DOMContentLoaded', () => {
     const currentPage = window.location.pathname.split('/').pop();
     let jsonFile = '';
@@ -40,6 +38,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     updateCartIcon();
 
+    // Place this call at the end of DOMContentLoaded
+    initializePageSpecificListeners();
+});
+
+function initializePageSpecificListeners() {
     const buyNowBtn = document.getElementById("buyNowBtn");
     if (buyNowBtn) {
         buyNowBtn.addEventListener("click", () => {
@@ -69,7 +72,8 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
-});
+}
+
 
 function displayProducts(products) {
     const productContainer = document.getElementById('product-container');
